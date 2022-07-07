@@ -19,18 +19,18 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
-global.ownernomer = 'Your Number'
-global.ownername = '🐦Star Boy Nexus'
-global.botname = 'Gojo-Satoru'
+global.owner = ['96891103640']
+global.premium = ['96891103640']
+global.ownernomer = '96891103640'
+global.ownername = 'AYATO'
+global.botname = 'GOJO BOT'
 global.footer = '©NexusNwInc.'
 global.ig = 'https://github.com/nexusNw'
 global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
-global.author = '🐦Star Boy Nexus'
+global.sc = 'https://github.com'
+global.myweb = 'https://youtube.com'
+global.packname = 'https://Wa.Me/+96891103640'
+global.author = 'GOJO BOT'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
@@ -44,7 +44,7 @@ global.mess = {
     bot: 'This Feature Is Only For Bot',
     wait: 'Wait A minute...',
     error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 10000 Hours',
 }
     global.limitawal = {
     premium: "Infinity",
