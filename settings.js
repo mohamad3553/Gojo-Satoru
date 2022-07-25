@@ -22,29 +22,29 @@ global.APIKeys = {
 global.owner = ['96891103640']
 global.premium = ['96891103640']
 global.ownernomer = '96891103640'
-global.ownername = 'AYATO'
-global.botname = 'GOJO BOT'
-global.footer = '©NexusNwInc.'
+global.ownername = '♛ الامبراطور اياتو ♛'
+global.botname = '♛ مايكي ♛'
+global.footer = '♛ مايكي ♛'
 global.ig = 'https://github.com/nexusNw'
 global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com'
-global.myweb = 'https://youtube.com'
+global.sc = 'https://chat.whatsapp.com/KodtgrEaF0O1vSqw0e1k09'
+global.myweb = 'https://youtube.com/channel/UCPvrnWknQrgCSIeobXMP0Uw'
 global.packname = 'https://Wa.Me/+96891103640'
-global.author = 'GOJO BOT'
+global.author = '♛ مايكي ♛'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute...',
+    success: '「 تم 」◣',
+    admin: '*「 هذا الامر فـقـط لـ المشرفين 」◣*',
+    botAdmin: '*「 اعطني إشراف لتفـعيل الامر 」◣*',
+    owner: '*「 هذا الامر فقط لـ المالك 」◣*',
+    group: '*「 هذا الامر في المجموعات فقط 」◣*',
+    private: '*「 هذا الامر في الخاص فقط 」◣*',
+    bot: '*「 هذا الامر مخصص لـ البوت 」◣*',
+    wait: '*「 انتظر من فضلك 」◣*',
     error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 10000 Hours',
+    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 1000 Hours',
 }
     global.limitawal = {
     premium: "Infinity",
