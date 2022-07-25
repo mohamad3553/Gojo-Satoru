@@ -1799,7 +1799,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 غوجو ساتورو موجود 🎉」\n\n${text}`
+                      let txt = `「  مايكي موجود 🎉」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('「 تم 🤗 」◣')
@@ -3876,7 +3876,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠تخفيض
 ┃╠طرد
 ┃╠الجروب
-┃╠التعديل
+
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "「 قناتي 」「📍」◣","url": `${myweb}`}},{"urlButton": {"displayText": "「 رابط الاستقبال 」「📌」◣","url": `${sc}`}},{"quickReplyButton": {"displayText": "「 الاستلام 」「🍜」◣","id": 'donate'}},{"quickReplyButton": {"displayText": "「 المالك 」「👤」◣","id": 'owner'}}] )
 break
