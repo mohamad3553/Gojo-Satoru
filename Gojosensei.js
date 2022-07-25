@@ -3875,8 +3875,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠ترقية 
 ┃╠تخفيض
 ┃╠طرد
-┃╠الجروب
-
+┃╠عدد الرسائل
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "「 قناتي 」「📍」◣","url": `${myweb}`}},{"urlButton": {"displayText": "「 رابط الاستقبال 」「📌」◣","url": `${sc}`}},{"quickReplyButton": {"displayText": "「 الاستلام 」「🍜」◣","id": 'donate'}},{"quickReplyButton": {"displayText": "「 المالك 」「👤」◣","id": 'owner'}}] )
 break
