@@ -24,7 +24,7 @@ global.premium = ['96891103640']
 global.ownernomer = '96891103640'
 global.ownername = '♛ الامبراطور اياتو ♛'
 global.botname = '♛ مايكي ♛'
-global.footer = '♛ مايكي ♛'
+global.footer = '©NexusNwInc.'
 global.ig = 'https://github.com/nexusNw'
 global.region = 'India, South India, Kerala'
 global.sc = 'https://chat.whatsapp.com/KodtgrEaF0O1vSqw0e1k09'
@@ -45,7 +45,6 @@ global.mess = {
     wait: '*「 انتظر من فضلك 」◣*',
     error: 'Error! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-}
     global.limitawal = {
     premium: "Infinity",
     free: 12,
