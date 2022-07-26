@@ -44,7 +44,7 @@ global.mess = {
     bot: '*「 هذا الامر مخصص لـ البوت 」◣*',
     wait: '*「 انتظر من فضلك 」◣*',
     error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 1000 Hours',
+    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
     global.limitawal = {
     premium: "Infinity",
