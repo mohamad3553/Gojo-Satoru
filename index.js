@@ -140,18 +140,21 @@ async function startGojoMdNx() {
         let nama = await GojoMdNx.getName(num)
 memb = metadata.participants.length
 
-Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://pin.it/fmiZwyu&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
+Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
 
-Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://pin.it/fmiZwyu&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
+Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
                     GojoMdNx.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
-⭐✑ مرحبا @${num.split("@")[0]},
-⭐✑ نورت جروبنا ${metadata.subject}
-⭐✑ مرحبا بك في بيتك ✨🤗`} )
-                } else if (anu.action == 'remove') {
-                    GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} غادر ${metadata.subject}
+⭐✑ Hi👋 @${num.split("@")[0]},
+⭐✑ Welcome To ${metadata.subject}
 
-⭐✑ تطلع يجي غيرك.✨👋🏻` })
+⭐✑ Description: ${metadata.desc}
+
+⭐✑ Welcome To Our Comfortable Happy😋, Sometimes Loud😜, Usually Messy🤥, Full Of Love🥰, HOME😌!!`} )
+                } else if (anu.action == 'remove') {
+                    GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} Left ${metadata.subject}
+
+⭐✑ I'm Not Sure If It Was A Goodbye Charm, But It Was Fun While It Lasted 😌✨` })
                 }
             }
         } catch (err) {
