@@ -1799,7 +1799,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「  مايكي موجود 🎉」\n\n${text}`
+                      let txt = `「 غوجو ساتورو موجود 🎉」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('「 تم 🤗 」◣')
@@ -1924,7 +1924,7 @@ break
                 })
             }
             break
-	        case 'الى.فيديو': case 'لفيديو': {
+	        case 'الى فيديو': case 'لفيديو': {
                 if (!quoted) reply(`Reply Image`)
                 if (!/webp/.test(mime)) return replay(`Reply Sticker With Caption *${prefix + command}*`)
                 reply(mess.wait)
@@ -1935,7 +1935,7 @@ break
                 await fs.unlinkSync(media)
             }
             break
-            case 'الى.صوتية': case 'لصوتية': {
+            case 'الى صوتية': case 'لصوتية': {
             if (!/video/.test(mime) && !/audio/.test(mime)) return replay(`Send/Reply Video/Audio You Want To Use As Audio With Caption ${prefix + command}`)
             if (!quoted) return reply(`Send/Reply Video/Audio You Want To Convert To Audio With Caption ${prefix + command}`)
             reply(mess.wait)
@@ -2348,11 +2348,11 @@ break
 	    break
             case 'قهوة': case 'شاي': {
             let buttons = [
-                    {buttonId: `شاي`, buttonText: {displayText: '「 التالي 」◣'}, type: 1}
+                    {buttonId: `شاي`, buttonText: {displayText: '➡️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
-                    caption: `「 ☕ 」◣`,
+                    caption: `☕`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -3460,8 +3460,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 	case 'الاوامر': case 'اوامر': {
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `「 مرحبا 👋🏻  」◣
-		    「 معك مايكي 」◣
+                    title: `「 مرحبا👋🏻  」◣
+		    「 معك بوت غوجو 🤗 」◣
 		    「 من مملكة غولد 🏮」◣`,
                     description: `「 اختر قائمة من فضلك 」◣`,
                     buttonText: "「 القائمة 」◣",
@@ -3875,7 +3875,8 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠ترقية 
 ┃╠تخفيض
 ┃╠طرد
-┃╠عدد الرسائل
+┃╠الجروب
+┃╠التعديل
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "「 قناتي 」「📍」◣","url": `${myweb}`}},{"urlButton": {"displayText": "「 رابط الاستقبال 」「📌」◣","url": `${sc}`}},{"quickReplyButton": {"displayText": "「 الاستلام 」「🍜」◣","id": 'donate'}},{"quickReplyButton": {"displayText": "「 المالك 」「👤」◣","id": 'owner'}}] )
 break
