@@ -24,7 +24,7 @@ global.premium = ['96891103640']
 global.ownernomer = '96891103640'
 global.ownername = '♛ الامبراطور اياتو ♛'
 global.botname = '♛ مايكي ♛'
-global.footer = '©NexusNwInc.'
+global.footer = '♛ مايكي ♛'
 global.ig = 'https://github.com/nexusNw'
 global.region = 'India, South India, Kerala'
 global.sc = 'https://chat.whatsapp.com/KodtgrEaF0O1vSqw0e1k09'
@@ -35,16 +35,17 @@ global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: '「 تم 」◣',
-    admin: '*「 هذا الامر فـقـط لـ المشرفين 」◣*',
-    botAdmin: '*「 اعطني إشراف لتفـعيل الامر 」◣*',
-    owner: '*「 هذا الامر فقط لـ المالك 」◣*',
-    group: '*「 هذا الامر في المجموعات فقط 」◣*',
-    private: '*「 هذا الامر في الخاص فقط 」◣*',
-    bot: '*「 هذا الامر مخصص لـ البوت 」◣*',
-    wait: '*「 انتظر من فضلك 」◣*',
+    success: '✓',
+    admin: '*「 هـذا الامـر فـقـط لـ المـشـرفـيـن 」◣*',
+    botAdmin: '*「 اعـطـنـي إشـراف لـتـفـعـيـل  الامـر 」◣*',
+    owner: '*「 هـذا الامـر فـقـط لـ الـمـالـك 」◣*',
+    group: '*「 هـذا الامـر فـي الـمـجـمـوعـات فـقـط 」◣*',
+    private: '*「 هـذا الامـر فـي الـخـاص فـقـط 」◣*',
+    bot: '*「 هـذا الامـر مـخـصـص لـ الـبـوت 」◣*',
+    wait: '*「 انـتـظـر مـن فـضـلـك 」◣*',
     error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 1000 Hours',
+}
     global.limitawal = {
     premium: "Infinity",
     free: 12,
