@@ -1765,7 +1765,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 غوجو ساتورو موجود 🎉 」\n\n${text}`
+                      let txt = `「 مايكي موجود 🎉 」\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`「 تم  ✌ 」◣`)
@@ -1799,7 +1799,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 غوجو ساتورو موجود 🎉」\n\n${text}`
+                      let txt = `「 مايكي موجود 🎉」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('「 تم 🤗 」◣')
@@ -3461,7 +3461,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `「 مرحبا👋🏻  」◣
-		    「 معك بوت غوجو 🤗 」◣
+		    「 مايكي 🤗 」◣
 		    「 من مملكة غولد 🏮」◣`,
                     description: `「 اختر قائمة من فضلك 」◣`,
                     buttonText: "「 القائمة 」◣",
