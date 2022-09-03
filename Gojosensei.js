@@ -3561,7 +3561,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "المملكة",
 								"rows": [
 									{
-										"title": "قائمة استمارات مملكة غولد",
+										"title": "قائمة استمارات مملكة التنين الازرق",
 										"description": ".17.",
 										"rowId": `${prefix}anon`
 									}
@@ -3571,7 +3571,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "نبذة",
 								"rows": [
 									{
-										"title": "تاريخ مملكة غولد",
+										"title": "مملكة التنين الازرق",
 										"description": ".18.",
 										"rowId": `${prefix}tqtt`
 									}
