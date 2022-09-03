@@ -19,9 +19,9 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['96891103640']
+global.owner = ['+967771160204']
 global.premium = ['96891103640']
-global.ownernomer = '96891103640'
+global.ownernomer = '+967 771 160 204'
 global.ownername = '♛ الامبراطور اياتو ♛'
 global.botname = '♛ مايكي ♛'
 global.footer = '♛ مايكي ♛'
@@ -29,8 +29,8 @@ global.ig = 'https://github.com/nexusNw'
 global.region = 'India, South India, Kerala'
 global.sc = 'https://chat.whatsapp.com/KodtgrEaF0O1vSqw0e1k09'
 global.myweb = 'https://youtube.com/channel/UCPvrnWknQrgCSIeobXMP0Uw'
-global.packname = 'https://Wa.Me/+96891103640'
-global.author = '♛ مايكي ♛'
+global.packname = 'https://Wa.Me/+967771160204'
+global.author = '( انـوس )'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
