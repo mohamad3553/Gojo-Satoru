@@ -19,9 +19,9 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['+967771160204']
+global.owner = ['967771160204']
 global.premium = ['96891103640']
-global.ownernomer = '+967 771 160 204'
+global.ownernomer = '967771160204'
 global.ownername = '( انـوس مـلـك الـشـيـاطـيـن )'
 global.botname = '( انـوس )'
 global.footer = '♛ مايكي ♛'
